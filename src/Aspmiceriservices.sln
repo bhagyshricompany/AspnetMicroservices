@@ -13,7 +13,19 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Discount", "Discount", "{EB
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Basket", "Basket", "{19EAA5D6-0193-4CE5-B3F9-806985860BE8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Catalog.API", "Services\Catalog.Api\Catalog.API\Catalog.API.csproj", "{D7F2B94D-C4B1-45AD-9A1A-43CF2F0B8695}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D7F2B94D-C4B1-45AD-9A1A-43CF2F0B8695}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7F2B94D-C4B1-45AD-9A1A-43CF2F0B8695}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7F2B94D-C4B1-45AD-9A1A-43CF2F0B8695}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7F2B94D-C4B1-45AD-9A1A-43CF2F0B8695}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
@@ -22,6 +34,7 @@ Global
 		{9D869215-F233-49A9-84FF-9EA0C2D3D6E4} = {495D96C8-1B17-4146-9B49-2BA5D269701F}
 		{EB072789-6FD9-4734-87A4-7768E868CD4B} = {495D96C8-1B17-4146-9B49-2BA5D269701F}
 		{19EAA5D6-0193-4CE5-B3F9-806985860BE8} = {495D96C8-1B17-4146-9B49-2BA5D269701F}
+		{D7F2B94D-C4B1-45AD-9A1A-43CF2F0B8695} = {B3258224-735F-4BC5-85CA-53D216697A80}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5E60F396-B4B4-417F-8FE9-0E1DF9728B8D}
