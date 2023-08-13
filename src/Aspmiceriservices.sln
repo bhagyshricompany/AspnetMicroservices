@@ -3,9 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33829.357
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{495D96C8-1B17-4146-9B49-2BA5D269701F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Catalog", "Catalog", "{B3258224-735F-4BC5-85CA-53D216697A80}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ordering", "Ordering", "{9D869215-F233-49A9-84FF-9EA0C2D3D6E4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Discount", "Discount", "{EB072789-6FD9-4734-87A4-7768E868CD4B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Basket", "Basket", "{19EAA5D6-0193-4CE5-B3F9-806985860BE8}"
+EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B3258224-735F-4BC5-85CA-53D216697A80} = {495D96C8-1B17-4146-9B49-2BA5D269701F}
+		{9D869215-F233-49A9-84FF-9EA0C2D3D6E4} = {495D96C8-1B17-4146-9B49-2BA5D269701F}
+		{EB072789-6FD9-4734-87A4-7768E868CD4B} = {495D96C8-1B17-4146-9B49-2BA5D269701F}
+		{19EAA5D6-0193-4CE5-B3F9-806985860BE8} = {495D96C8-1B17-4146-9B49-2BA5D269701F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5E60F396-B4B4-417F-8FE9-0E1DF9728B8D}
